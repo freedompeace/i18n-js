@@ -291,7 +291,7 @@
     }
 
     pluralizer = this.pluralization.get(options.locale);
-    keys = pluralizer(Math.abs(count));
+    keys = pluralizer(Math.abs(count), options.locale);
 
     while (keys.length) {
       key = keys.shift();
