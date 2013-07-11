@@ -176,7 +176,7 @@
   I18n.pluralization["default"] = function(count) {
     switch (count) {
       case 0: return ["zero", "other"];
-      case 1: return ["one"];
+      case 1: return ["one", "other"];
       default: return ["other"];
     }
   };
